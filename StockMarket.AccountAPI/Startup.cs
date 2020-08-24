@@ -9,6 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using StockMarket.AccountAPI.Models;
+using StockMarket.AccountAPI.Services;
+using StockMarket.AccountAPI.Repositories;
+using StockMarket.AccountAPI.DBAccess;
 
 namespace StockMarket.AccountAPI
 {
@@ -24,6 +28,7 @@ namespace StockMarket.AccountAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<StockDBContext>();
             services.AddControllers();
         }
 

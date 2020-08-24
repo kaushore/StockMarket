@@ -10,7 +10,7 @@ namespace StockMarket.AccountAPI.Models
 {
     public class PlannedIPO
     {
-        public string CompanyID { get; set; }
+        public string ID { get; set; }
         public string CompanyName { get; set; }
         public string StockExchange { get; set; }
         public float PricePerShare { get; set; }

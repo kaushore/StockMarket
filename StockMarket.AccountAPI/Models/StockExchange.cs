@@ -14,11 +14,9 @@ namespace StockMarket.AccountAPI.Models
         [Key]
         public string StockExchangeId { get; set; }
         public string Name { get; set; }
-        public string Brief { get; set; }
-        public IEnumerable<Company> Companies { get; set; }
+        public string Brief { get; set; }        
         public string Address { get; set; }
         public string Remarks { get; set; }
 
-        public IEnumerable<>
     }
 }

@@ -23,8 +23,7 @@ namespace StockMarket.AccountAPI.Models
         [Required]
         [Column(TypeName = "Date")] // this is to endure that we only need date and not time
         public DateTime Date { get; set; }
-
         public string Time { get; set; }
-        public Company Company { get; set; } // NAvigation Prop
+        public Company Company { get; set; } // Navigation Prop
     }
 }

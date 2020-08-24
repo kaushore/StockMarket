@@ -17,11 +17,10 @@ namespace StockMarket.AccountAPI.Models
         public string Name { get; set; }
         public double Turnover { get; set; }
         public string CEO { get; set; }
-        public List<string> BoardOfDirectors { get; set; }        
+        public string BoardOfDirectors { get; set; }        
         public string Sector { get; set; }
         public string WriteUp { get; set; }
-        public IEnumerable<StockExchange> StockExchanges { get; set; }
-        public Dictionary<string,string> StockCode { get;set }
+        public string StockCode { get; set; }
         public IEnumerable<StockPrice> StockPrices { get; set; } // Navif=gation Property
         // Same company Can have multiple Stock prices
     }

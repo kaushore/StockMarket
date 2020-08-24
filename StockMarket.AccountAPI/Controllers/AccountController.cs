@@ -20,6 +20,7 @@ namespace StockMarket.AccountAPI.Controllers
             this.service = service;
         }
         [HttpPost]
+        [Route("AddUser")]
         public IActionResult AddUser (User item)
         {
             try

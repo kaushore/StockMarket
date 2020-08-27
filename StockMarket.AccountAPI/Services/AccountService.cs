@@ -25,5 +25,10 @@ namespace StockMarket.AccountAPI.Services
         {
             return accountRepository.Validate(uname, pwd);
         }
+
+        public User EditUserDetails(string uid)
+        {
+            return accountRepository.EditUserDetails(uid);
+        }
     }
 }

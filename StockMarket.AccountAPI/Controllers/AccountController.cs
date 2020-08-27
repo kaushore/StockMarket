@@ -33,5 +33,48 @@ namespace StockMarket.AccountAPI.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+
+        [HttpGet]
+        [Route("Validate/{uname}/{pwd}")]
+        public IActionResult Validate(string uname, string pwd)
+        {
+            try
+            {
+                User user = service.Validate(uname, pwd);
+                if (user == null)
+                {
+                    return Content("Invalid User");
+                }                    
+                else
+                {
+                    return Ok(user);
+                }
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpPost]
+        [Route("Edit/{uid}")]
+        public IActionResult EditUserDetails(string uid)
+        {
+            try
+            {
+                if (uid == null)
+                    return NotFound();
+
+                var userToUpdate = service.EditUserDetails(uid);
+
+                return Ok(userToUpdate);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+            
+        }
+
     }
 }

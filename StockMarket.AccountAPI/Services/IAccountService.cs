@@ -10,6 +10,6 @@ namespace StockMarket.AccountAPI.Services
     {
         void AddUser(User item);
         User Validate(string uname, string pwd);
-        User EditUserDetails(string uid);
+        User EditUserDetails(User user);
     }
 }

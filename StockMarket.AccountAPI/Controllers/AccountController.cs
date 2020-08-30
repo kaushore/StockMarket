@@ -8,24 +8,28 @@ using StockMarket.AccountAPI.Services;
 using StockMarket.AccountAPI.Controllers;
 using StockMarket.AccountAPI.Models;
 
+
 namespace StockMarket.AccountAPI.Controllers
 {
+   
+
     [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
     {
         private IAccountService service;
+        
         public AccountController(IAccountService service)
         {
             this.service = service;
         }
-        [HttpPost]
+        [HttpPost]        
         [Route("AddUser")]
         public IActionResult AddUser (User item)
         {
             try
             {
-                service.AddUser(item);
+                service.AddUser(item);                
                 return Ok();
             }
             catch(Exception ex)
@@ -57,15 +61,15 @@ namespace StockMarket.AccountAPI.Controllers
         }
 
         [HttpPost]
-        [Route("Edit/{uid}")]
-        public IActionResult EditUserDetails(string uid)
+        [Route("EditUser")]
+        public IActionResult EditUserDetails(User user)
         {
             try
             {
-                if (uid == null)
+                if (user == null)
                     return NotFound();
 
-                var userToUpdate = service.EditUserDetails(uid);
+                var userToUpdate = service.EditUserDetails(user);
 
                 return Ok(userToUpdate);
             }

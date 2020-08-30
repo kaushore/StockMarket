@@ -9,7 +9,7 @@ using StockMarket.AccountAPI.DBAccess;
 
 namespace StockMarket.AccountAPI.Migrations
 {
-    [DbContext(typeof(StockDBContext))]
+    [DbContext(typeof(AccountDBContext))]
     [Migration("20200824043634_InitialMigration")]
     partial class InitialMigration
     {

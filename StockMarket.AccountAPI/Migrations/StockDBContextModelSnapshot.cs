@@ -8,7 +8,7 @@ using StockMarket.AccountAPI.DBAccess;
 
 namespace StockMarket.AccountAPI.Migrations
 {
-    [DbContext(typeof(StockDBContext))]
+    [DbContext(typeof(AccountDBContext))]
     partial class StockDBContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -30,8 +30,7 @@ namespace StockMarket.AccountAPI.Models
 
         [StringLength(15)]
         public string Mobile { get; set; }
-
-        [StringLength(20)]
-        public string Confirmed { get; set; }
+                
+        public bool Confirmed { get; set; }
     }
 }

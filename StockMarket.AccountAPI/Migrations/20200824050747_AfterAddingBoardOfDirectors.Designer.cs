@@ -9,7 +9,7 @@ using StockMarket.AccountAPI.DBAccess;
 
 namespace StockMarket.AccountAPI.Migrations
 {
-    [DbContext(typeof(StockDBContext))]
+    [DbContext(typeof(AccountDBContext))]
     [Migration("20200824050747_AfterAddingBoardOfDirectors")]
     partial class AfterAddingBoardOfDirectors
     {

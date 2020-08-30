@@ -10,6 +10,11 @@ namespace StockMarket.AccountAPI.DBAccess
     public class AccountDBContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<Company> Companies { get; set; }
+        public DbSet<StockExchange> StockExchanges { get; set; }
+        public DbSet<StockPrice> StockPrices { get; set; }
+        public DbSet<Sector> Sectors { get; set; }
+        public DbSet<PlannedIPO> PlannedIPOs { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

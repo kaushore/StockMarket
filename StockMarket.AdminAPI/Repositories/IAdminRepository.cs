@@ -13,5 +13,7 @@ namespace StockMarket.AdminAPI.Repositories
         void AddCompany(Company company);
         void DeactivateCompany(string cid);
         void DeleteStockExchange(string sid);
+        void AddIPO(PlannedIPO ipo);
+        void UpdateIPO(PlannedIPO ipo);
     }
 }

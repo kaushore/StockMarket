@@ -32,5 +32,15 @@ namespace StockMarket.AdminAPI.Services
         {
             adminRepository.DeleteStockExchange(sid);
         }
+
+        public void AddIPO(PlannedIPO ipo)
+        {
+            adminRepository.AddIPO(ipo);
+        }
+
+        public void UpdateIPO(PlannedIPO ipo)
+        {
+            adminRepository.UpdateIPO(ipo);
+        }
     }
 }

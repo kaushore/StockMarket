@@ -38,5 +38,17 @@ namespace StockMarket.AdminAPI.Repositories
             context.StockExchanges.Remove(stockExchange);
             context.SaveChanges();
         }
+
+        public void AddIPO(PlannedIPO ipo)
+        {
+            context.Add(ipo);
+            context.SaveChanges();
+        }
+
+        public void UpdateIPO(PlannedIPO ipo)
+        {
+            context.PlannedIPOs.Update(ipo);
+            context.SaveChanges();
+        }
     }
 }

@@ -9,6 +9,7 @@ namespace StockMarket.AdminAPI.DBAccess
 {
     public class AdminDBContext : DbContext
     {
+        public DbSet<User> Users { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<StockExchange> StockExchanges { get; set; }
         public DbSet<StockPrice> StockPrices { get; set; }

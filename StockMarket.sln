@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket.AccountAPI", "StockMarket.AccountAPI\StockMarket.AccountAPI.csproj", "{9CD3806B-88B1-40E5-9DF7-02F6B83C07A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket.AccountAPI", "StockMarket.AccountAPI\StockMarket.AccountAPI.csproj", "{9CD3806B-88B1-40E5-9DF7-02F6B83C07A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket.UserAPI", "StockMarket.UserAPI\StockMarket.UserAPI.csproj", "{190F2C84-B941-41BC-8D3B-39EE715FF714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket.UserAPI", "StockMarket.UserAPI\StockMarket.UserAPI.csproj", "{190F2C84-B941-41BC-8D3B-39EE715FF714}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket.AdminAPI", "StockMarket.AdminAPI\StockMarket.AdminAPI.csproj", "{61089DF9-4FB1-4FED-8423-69AEE3110C56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket.AdminAPI", "StockMarket.AdminAPI\StockMarket.AdminAPI.csproj", "{61089DF9-4FB1-4FED-8423-69AEE3110C56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket.ExcelAPI", "StockMarket.ExcelAPI\StockMarket.ExcelAPI.csproj", "{6B62216A-2F54-4ED2-BE99-20344CDC94D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket.ExcelAPI", "StockMarket.ExcelAPI\StockMarket.ExcelAPI.csproj", "{6B62216A-2F54-4ED2-BE99-20344CDC94D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket.GateWay", "StockMarket.GateWay\StockMarket.GateWay.csproj", "{FAC68E74-63E8-4B13-B8FB-297327D92CE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6B62216A-2F54-4ED2-BE99-20344CDC94D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B62216A-2F54-4ED2-BE99-20344CDC94D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B62216A-2F54-4ED2-BE99-20344CDC94D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC68E74-63E8-4B13-B8FB-297327D92CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC68E74-63E8-4B13-B8FB-297327D92CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC68E74-63E8-4B13-B8FB-297327D92CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC68E74-63E8-4B13-B8FB-297327D92CE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

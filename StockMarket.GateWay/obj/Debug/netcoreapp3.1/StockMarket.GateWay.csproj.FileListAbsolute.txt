@@ -1,0 +1,9 @@
+C:\Users\socgend22\Documents\Projects\StockMarket\StockMarket.GateWay\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\socgend22\Documents\Projects\StockMarket\StockMarket.GateWay\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\socgend22\Documents\Projects\StockMarket\StockMarket.GateWay\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\socgend22\Documents\Projects\StockMarket\StockMarket.GateWay\bin\Debug\netcoreapp3.1\StockMarket.GateWay.exe
+C:\Users\socgend22\Documents\Projects\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\StockMarket.GateWay.AssemblyInfoInputs.cache
+C:\Users\socgend22\Documents\Projects\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\StockMarket.GateWay.AssemblyInfo.cs
+C:\Users\socgend22\Documents\Projects\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\StockMarket.GateWay.RazorTargetAssemblyInfo.cache
+C:\Users\socgend22\Documents\Projects\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\staticwebassets\StockMarket.GateWay.StaticWebAssets.Manifest.cache
+C:\Users\socgend22\Documents\Projects\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\staticwebassets\StockMarket.GateWay.StaticWebAssets.xml

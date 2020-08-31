@@ -5721,25 +5721,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\socgend22\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Kaushal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\socgend22\\Documents\\Projects\\StockMarket\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Kaushal\\Documents\\Phase3Project\\StockMarket\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
       "projectName": "StockMarket.UserAPI",
-      "projectPath": "C:\\Users\\socgend22\\Documents\\Projects\\StockMarket\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
-      "packagesPath": "C:\\Users\\socgend22\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\socgend22\\Documents\\Projects\\StockMarket\\StockMarket.UserAPI\\obj\\",
+      "projectPath": "C:\\Users\\Kaushal\\Documents\\Phase3Project\\StockMarket\\StockMarket.UserAPI\\StockMarket.UserAPI.csproj",
+      "packagesPath": "C:\\Users\\Kaushal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kaushal\\Documents\\Phase3Project\\StockMarket\\StockMarket.UserAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\socgend22\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Kaushal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5797,7 +5792,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

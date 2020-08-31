@@ -1,0 +1,106 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Account",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          //"Host": "myaccountapi85.azurewebsites.net"
+          "Host": "localhost",
+          "Port": 56259
+        }
+      ],
+      "UpstreamPathTemplate": "/Account/"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Account/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          //"Host": "myaccountapi85.azurewebsites.net"
+          "Host": "localhost",
+          "Port": 56259
+        }
+      ],
+      "UpstreamPathTemplate": "/Account/{url}"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Admin/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 56299
+        }
+      ],
+      "UpstreamPathTemplate": "/Admin/{url}"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Admin",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 56299
+        }
+      ],
+      "UpstreamPathTemplate": "/Admin/"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/User/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 56289
+        }
+      ],
+      "UpstreamPathTemplate": "/User/{url}"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/User",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 56289
+        }
+      ],
+      "UpstreamPathTemplate": "/User/"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Excel/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 56423
+        }
+      ],
+      "UpstreamPathTemplate": "/Excel/{url}"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Excel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 56423
+        }
+      ],
+      "UpstreamPathTemplate": "/Excel/"
+    }
+
+
+  ],
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:58423/"
+    }
+}

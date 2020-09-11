@@ -19,5 +19,11 @@ namespace StockMarket.UserAPI.Controllers
         {
             this.service = service;
         }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok("User Service");
+        }
     }
 }

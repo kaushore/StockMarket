@@ -7,7 +7,7 @@ using StockMarket.ExcelAPI.Models;
 
 namespace StockMarket.ExcelAPI.DBAccess
 {
-    public class ExcelDBAccess : DbContext
+    public class ExcelDBContext : DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Company> Companies { get; set; }

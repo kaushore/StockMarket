@@ -19,7 +19,7 @@ namespace StockMarket.ExcelAPI.Models
         [Required] 
         public string StockExchange { get; set; }
         [Required]
-        public string CurrentPrice { get; set; }
+        public double CurrentPrice { get; set; }
         [Required]
         [Column(TypeName = "Date")] // this is to endure that we only need date and not time
         public DateTime Date { get; set; }

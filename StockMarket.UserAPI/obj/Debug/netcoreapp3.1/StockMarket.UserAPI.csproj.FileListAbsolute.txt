@@ -7,7 +7,6 @@ C:\Users\Kaushal\Documents\Phase3Project\StockMarket\StockMarket.UserAPI\bin\Deb
 C:\Users\Kaushal\Documents\Phase3Project\StockMarket\StockMarket.UserAPI\bin\Debug\netcoreapp3.1\StockMarket.UserAPI.runtimeconfig.dev.json
 C:\Users\Kaushal\Documents\Phase3Project\StockMarket\StockMarket.UserAPI\bin\Debug\netcoreapp3.1\StockMarket.UserAPI.dll
 C:\Users\Kaushal\Documents\Phase3Project\StockMarket\StockMarket.UserAPI\bin\Debug\netcoreapp3.1\StockMarket.UserAPI.pdb
-C:\Users\Kaushal\Documents\Phase3Project\StockMarket\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.csprojAssemblyReference.cache
 C:\Users\Kaushal\Documents\Phase3Project\StockMarket\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.AssemblyInfoInputs.cache
 C:\Users\Kaushal\Documents\Phase3Project\StockMarket\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.AssemblyInfo.cs
 C:\Users\Kaushal\Documents\Phase3Project\StockMarket\StockMarket.UserAPI\obj\Debug\netcoreapp3.1\StockMarket.UserAPI.RazorTargetAssemblyInfo.cache

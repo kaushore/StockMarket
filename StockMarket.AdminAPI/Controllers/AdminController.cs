@@ -14,12 +14,21 @@ namespace StockMarket.AdminAPI.Controllers
     [ApiController]
     public class AdminController : ControllerBase
     {
+        
         private IAdminService service;
         public AdminController(IAdminService service)
         {
             this.service = service;
         }
+        
 
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok("Admin Service");
+        }
+
+        
         [HttpPost]
         [Route("AddStockExchange")]
         public IActionResult AddUser(StockExchange stockExchange)

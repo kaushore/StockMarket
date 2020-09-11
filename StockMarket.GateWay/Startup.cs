@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Ocelot.DependencyInjection;
-using Ocelot.Middleware; 
+using Ocelot.Middleware;
 
 namespace StockMarket.GateWay
 {
@@ -46,7 +46,6 @@ namespace StockMarket.GateWay
             {
                 endpoints.MapControllers();
             });
-
             app.UseOcelot();
         }
     }

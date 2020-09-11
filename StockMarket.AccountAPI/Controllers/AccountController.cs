@@ -23,6 +23,13 @@ namespace StockMarket.AccountAPI.Controllers
         {
             this.service = service;
         }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok("Account Service");
+        }
+
         [HttpPost]        
         [Route("AddUser")]
         public IActionResult AddUser (User item)

@@ -9,6 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using StockMarket.ExcelAPI.DBAccess;
+using StockMarket.ExcelAPI.Controllers;
+using StockMarket.ExcelAPI.Repositories;
+using StockMarket.ExcelAPI.Services;
 
 namespace StockMarket.ExcelAPI
 {
@@ -24,6 +28,9 @@ namespace StockMarket.ExcelAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ExcelDBContext>();
+            services.AddTransient<IExcelService, ExcelService>();
+            services.AddTransient<IExcelRepository, ExcelRepository>();
             services.AddControllers();
         }
 
